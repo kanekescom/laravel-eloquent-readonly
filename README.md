@@ -11,11 +11,21 @@ This is where your description should go. Take a look at [contributing.md](contr
 
 Via Composer
 
-``` bash
+```bash
 $ composer require kanekescom/laravel-eloquent-readonly
 ```
 
 ## Usage
+
+```php
+use Illuminate\Database\Eloquent\Model;
+use Kanekescom\LaravelEloquentReadonly\ReadonlyTrait;
+
+class MyModel extends Model
+{
+    use ReadonlyTrait;
+}
+```
 
 ## Change log
 
@@ -23,7 +33,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 
 ## Testing
 
-``` bash
+```bash
 $ composer test
 ```
 
@@ -37,18 +47,17 @@ If you discover any security related issues, please email kanekescom@gmail.com i
 
 ## Credits
 
-- [Kanekes.com][link-author]
-- [All Contributors][link-contributors]
+-   [Kanekes.com][link-author]
+-   [All Contributors][link-contributors]
 
 ## License
 
-MIT. Please see the [license file](license.md) for more information.
+MIT. Please see the [license file](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/kanekescom/laravel-eloquent-readonly.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/kanekescom/laravel-eloquent-readonly.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/kanekescom/laravel-eloquent-readonly/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
-
 [link-packagist]: https://packagist.org/packages/kanekescom/laravel-eloquent-readonly
 [link-downloads]: https://packagist.org/packages/kanekescom/laravel-eloquent-readonly
 [link-travis]: https://travis-ci.org/kanekescom/laravel-eloquent-readonly

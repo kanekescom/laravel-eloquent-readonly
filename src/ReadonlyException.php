@@ -2,7 +2,7 @@
 
 namespace Kanekescom\LaravelEloquentReadonly;
 
-class EloquentReadonlyException extends \RuntimeException
+class ReadonlyException extends \RuntimeException
 {
     /**
      * @param string $functionName

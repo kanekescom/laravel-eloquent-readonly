@@ -34,12 +34,12 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "Kanekescom\\LaravelEloquentReadonly\\EloquentReadonlyServiceProvider"
-            ],
-            "aliases": {
-                "EloquentReadonly": "Kanekescom\\LaravelEloquentReadonly\\Facades\\EloquentReadonly"
-            }
+            "providers": []
         }
-    }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

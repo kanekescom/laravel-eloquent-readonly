@@ -2,7 +2,8 @@
 
 All notable changes to `laravel-eloquent-readonly` will be documented in this file.
 
-## Version 1.x
+## To Version 1.1
 
-### Added
-- Everything
+### Rename
+
+-   Kanekescom\LaravelEloquentReadonly\EloquentReadonlyTrait to Kanekescom\LaravelEloquentReadonly\ReadonlyTrait
