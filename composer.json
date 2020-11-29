@@ -1,5 +1,6 @@
 {
     "name": "kanekescom/laravel-eloquent-readonly",
+    "type": "library",
     "description": "Laravel Eloquent Readonly Package",
     "license": "MIT",
     "authors": [
